@@ -12,7 +12,6 @@ For example, if num1 = 5 and num2 = 4, subtract num2 from num1, thus obtaining n
 Return the number of operations required to make either num1 = 0 or num2 = 0.
 
  
-
 Example 1:
 
 Input: num1 = 2, num2 = 3
