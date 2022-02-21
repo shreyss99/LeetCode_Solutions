@@ -38,17 +38,17 @@ Only one valid answer exists.
 class Solution {
     public int[] twoSum(int[] nums, int target) {
 
-    //create an int[] for storing result of 2 indices
+      //create an int[] for storing result of 2 indices
       int result[] = new int[2];
 
-    //iterate i from 0-th index to array length
+      //iterate i from 0-th index to array length
       for (int i=0;i<nums.length;i++)
       {
 	  //iterate j from i+1-th index to array length
 	  //idea is to start with 0 (outer loop) and check if sum is equal to target with 1..to array length (inner loop)
           for (int j=i+1;j<nums.length;j++)
           {
-       	//if sum of the numbers at i and j indices is equal to target store the indices in result array
+       	      //if sum of the numbers at i and j indices is equal to target store the indices in result array
               if ((nums[i] + nums[j]) == target)
               {
                   result[0] = j;
