@@ -44,9 +44,11 @@ import java.util.*;
 class Solution {
     public int[] sortEvenOdd(int[] nums) {
      
+	//Creating 2 arraylists for storing odd and even numbers	
         List<Integer> odd_numbers = new ArrayList<Integer>((nums.length+1)/2);
         List<Integer> even_numbers = new ArrayList<Integer>((nums.length+1)/2);
         
+	//Check if number is odd or even and store in respective arraylist
         for(int i=0;i<nums.length;i++){
             if (i%2 == 0)
                 even_numbers.add(nums[i]);
@@ -54,11 +56,16 @@ class Solution {
                 odd_numbers.add(nums[i]);
         }
         
+	//Sort the even numbers arraylist in ascending order
+	//Sort the odd numbers arraylist in descending order
         Collections.sort(even_numbers);
         Collections.sort(odd_numbers, Collections.reverseOrder());
             
         int j=0;
         int k=0;
+
+	//Using j as even number array counter, store even numbers at even indices of original array 
+	//Using k as odd number array counter, store odd numbers at odd indices of original array
         for(int i=0;i<nums.length;i++){
             if (i%2 == 0){
                 nums[i] = even_numbers.get(j);
@@ -73,3 +80,5 @@ class Solution {
         return nums;
     }
 }
+
+
