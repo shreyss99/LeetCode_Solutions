@@ -40,7 +40,7 @@ class Solution {
         
         double a, b;
 
-	 //We will convert int[] to Integer[] so that they can be used for easy sort operations
+	//We will convert int[] to Integer[] so that they can be used for easy sort operations
         Integer[] nums1Integer = new Integer[nums1.length]; 
         Integer[] nums2Integer = new Integer[nums2.length]; 
         
@@ -50,17 +50,17 @@ class Solution {
         ArrayList<Integer> arrayList1 = new ArrayList<Integer>(Arrays.asList(nums1Integer));
         ArrayList<Integer> arrayList2 = new ArrayList<Integer>(Arrays.asList(nums2Integer));
         
-	 //copy elements from 2nd arraylist and mergine them at the end of first arraylist
-	 //and then sorting the complete arraylist to get median
+	//copy elements from 2nd arraylist and mergine them at the end of first arraylist
+	//and then sorting the complete arraylist to get median
         arrayList1.addAll(arrayList2);
         Collections.sort(arrayList1);
         
-	 //if there are odd-numbered elements in arraylist return the middle element
+	//if there are odd-numbered elements in arraylist return the middle element
         if(arrayList1.size() % 2 != 0){
             a = arrayList1.get((arrayList1.size() - 1)/2);
             return a;
         }
-	 //if there are even-numbered elements in arraylist take average of middle 2 elements
+	//if there are even-numbered elements in arraylist take average of middle 2 elements
         else{
             a = arrayList1.get((arrayList1.size())/2 - 1);
             b = arrayList1.get((arrayList1.size())/2);
