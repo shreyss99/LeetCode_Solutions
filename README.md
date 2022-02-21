@@ -4,9 +4,9 @@
 ## Algorithms
                                                                                                                                                                                                    
 
-| Problem Number | Title | Solution Language | Difficulty |
+| Problem Number | Title | Language | Difficulty |
 | ------------- | ------------- | ------------- | ------------- | 
-| 1  | Two Sums  | Java  | Easy  |
+| 1  | Two Sums(https://leetcode.com/problems/two-sum/)  | Java  | Easy  |
 
 
 
