@@ -95,3 +95,16 @@ class Solution {
         return number;
     }
 }
+
+
+/*
+Success
+Details 
+Runtime: 9 ms, faster than 51.43% of Java online submissions for Roman to Integer.
+Memory Usage: 45.6 MB, less than 27.82% of Java online submissions for Roman to Integer.
+Time Submitted	22/02/2022 04:23
+Status		Accepted
+Runtime		9 ms
+Memory		45.6 MB
+Language		java
+*/
