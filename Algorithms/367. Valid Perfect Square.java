@@ -28,6 +28,8 @@ Constraints:
 
 class Solution {
     public boolean isPerfectSquare(int num) {
+
+	//Using in-built pow(), dropping the fractional part and checking if equal to the actual square root
         double root = Math.pow(num, 0.5);
         if(root == (int)root)
             return true;
