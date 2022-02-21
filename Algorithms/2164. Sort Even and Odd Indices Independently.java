@@ -82,3 +82,13 @@ class Solution {
 }
 
 
+/*
+Runtime: 5 ms, faster than 70.85% of Java online submissions for Sort Even and Odd Indices Independently.
+Memory Usage: 42.7 MB, less than 86.89% of Java online submissions for Sort Even and Odd Indices Independently.
+
+Time Submitted	22/02/2022 03:58
+Status		Accepted
+Runtime		5 ms
+Memory		42.7 MB
+Language		java
+*/
