@@ -10,6 +10,7 @@
 | 4  | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)  | Java  | Hard  |
 | 9  | [Palindrome Number](https://leetcode.com/problems/palindrome-number/)  | Java  | Easy  |
 | 13  | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)  | Java  | Easy  |
+| 26  | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)  | Java  | Easy  |
 | 50  | [Pow(x,n)](https://leetcode.com/problems/powx-n/)  | Java  | Medium  |
 | 58  | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)  | Java  | Easy  |
 | 69  | [Sqrt(x)](https://leetcode.com/problems/sqrtx/)  | Java  | Easy  |
