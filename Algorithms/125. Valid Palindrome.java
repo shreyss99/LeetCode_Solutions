@@ -41,12 +41,16 @@ import java.io.*;
 class Solution {
     public boolean isPalindrome(String s) {
         
+	//Converting string to lower case and removing all non-alphanumeric characters
         s = s.toLowerCase();
         s = s.replaceAll("[^a-z0-9]", "");
 
+	//Using StringBuilder object to assign origninal string
         StringBuilder string = new StringBuilder();
         string.append(s);
-
+	
+	//Using the reverse() of StringBuilder to invert the string
+	//Checking if the original string is same as reverse string (Note: While comparing we have converted the StringBuilder back to string)
         if((string.toString()).equals((string.reverse()).toString()))
             return true;
         else
