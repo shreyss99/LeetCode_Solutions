@@ -30,21 +30,22 @@ Constraints:
 
 class Solution {
     public int mySqrt(int x) {
-        int square_root;
-        square_root = (int) Math.sqrt(x);
-        return square_root;
+        
+	//Idea is using the in-built sqrt function and assigning it to int to truncate the decimal
+       return (int) Math.sqrt(x);
     }
 }
+
 
 
 /*
 Success
 Details 
 Runtime: 2 ms, faster than 73.15% of Java online submissions for Sqrt(x).
-Memory Usage: 41.2 MB, less than 24.97% of Java online submissions for Sqrt(x).
-Time Submitted	22/02/2022 04:23
+Memory Usage: 40.6 MB, less than 32.52% of Java online submissions for Sqrt(x).
+Time Submitted	22/02/2022 04:30
 Status		Accepted
 Runtime		2 ms
-Memory		41.2 MB
+Memory		40.6 MB
 Language		java
 */
