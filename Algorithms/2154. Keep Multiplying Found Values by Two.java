@@ -44,12 +44,14 @@ import java.util.*;
 class Solution {
     public int findFinalValue(int[] nums, int original) {
         
+	//Using LinkedHashSet to store the unique values
         LinkedHashSet<Integer> numbersHashSet = new LinkedHashSet<Integer>();
         
         for(int i : nums){
             numbersHashSet.add(i);
         }
         
+	//Using the contains() to check if the number exists in the LinkedHashSet
         int value = original;
         while(numbersHashSet.contains(value)){
             value *= 2;
