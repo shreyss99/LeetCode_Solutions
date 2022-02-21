@@ -52,9 +52,18 @@ It is guaranteed that s is a valid roman numeral in the range [1, 3999].
 
 class Solution {
     public int romanToInt(String s) {
+
         int number = 0;
+
+	//We check for each character in the input string if it matches with the Roman letter and add its value
         for(int i=0;i<s.length();i++)
         {
+		//We have multiple conditions
+		//Conditions 1-3 are when you have the last element as I, X, or C where we add their values as it
+
+		//Conditions 4-6 are when you have the middle element as I, X, or C, and the next character is (V, X), (L, C), or (D, M) respectively. In this, we subtract the value of I, X,  		//or C from the existing total
+
+		//Conditions 7-13 are the cases where yu add the element value
             if(s.charAt(i)=='I' && i == s.length() - 1)
                 number += 1;
             else if(s.charAt(i)=='X' && i == s.length() - 1)
