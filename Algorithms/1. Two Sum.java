@@ -62,4 +62,14 @@ class Solution {
 }
 
 
-
+/*
+Success
+Details 
+Runtime: 76 ms, faster than 25.27% of Java online submissions for Two Sum.
+Memory Usage: 45.4 MB, less than 18.91% of Java online submissions for Two Sum.
+Time Submitted	02/22/2022 04:17
+Status		Accepted
+Runtime		76 ms
+Memory		45.4 MB
+Language		java
+*/
