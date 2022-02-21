@@ -35,3 +35,16 @@ class Solution {
         return square_root;
     }
 }
+
+
+/*
+Success
+Details 
+Runtime: 2 ms, faster than 73.15% of Java online submissions for Sqrt(x).
+Memory Usage: 41.2 MB, less than 24.97% of Java online submissions for Sqrt(x).
+Time Submitted	22/02/2022 04:23
+Status		Accepted
+Runtime		2 ms
+Memory		41.2 MB
+Language		java
+*/
