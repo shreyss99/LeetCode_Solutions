@@ -30,21 +30,27 @@ Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 
 Constraints:
 
--231 <= x <= 231 - 1
+-2^31 <= x <= 2^31 - 1
 */
 
 
 class Solution {
+
     public boolean isPalindrome(int x) {
         int original = x;
         int reversed = 0;
         int remainder;
+
+	//We extract the units digit number and then divide the number by 10 and try constructing the reverse number
+	//repeat till the number is greater than 0
         while (x > 0)
         {
             remainder = x%10;
             x = x/10;
             reversed = 10*reversed + remainder;
         }
+	
+	//check if the original number is equal to the reversed or original is negative number
         if(reversed != original || original < 0)
             return false;
         else
