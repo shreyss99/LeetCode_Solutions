@@ -38,3 +38,17 @@ class Solution {
     }
 }
 }
+
+
+/*
+Success
+Details 
+Runtime: 0 ms, faster than 100.00% of Java online submissions for Valid Perfect Square.
+Memory Usage: 40.4 MB, less than 30.97% of Java online submissions for Valid Perfect Square.
+
+Time Submitted	22/02/2022 05:26
+Status		Accepted
+Runtime		0 ms
+Memory		40.4 MB
+Language		java
+*/
