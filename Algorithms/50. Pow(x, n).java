@@ -36,6 +36,12 @@ import java.util.*;
 class Solution {
     public double myPow(double x, int n) {
         
+	//Recursive function for power
+	//Condition 1 is when power is 0
+	//Condition 2 is when power is negative
+	//Condition 3 is when power is even - we use the rule: x^n = (x^2)^(n/2)
+	//Condition 4 is when power is odd - we use the rule: x^n = x*(x^2)^(n/2) 
+
        if(n==0){
             return(1); 
         }
