@@ -34,7 +34,7 @@ So the total number of operations required is 1.
 
 Constraints:
 
-0 <= num1, num2 <= 105
+0 <= num1, num2 <= 10^5
 */
 
 
@@ -43,10 +43,14 @@ class Solution {
         
         int no_of_operations = 0;
         
+	//Until both numbers are not equal to 0
         while(num1 != 0 && num2 != 0)
         {
+		//subtract num2 from num1 if num1 >= num2
             if (num1 >= num2)
                 num1 -= num2;
+		
+		//subtract num1 from num2 if num2 > num1
             else
                 num2 -= num1;
             no_of_operations++;
@@ -55,3 +59,15 @@ class Solution {
         return no_of_operations;
     }
 }
+
+
+/*
+Runtime: 3 ms, faster than 44.02% of Java online submissions for Count Operations to Obtain Zero.
+Memory Usage: 41 MB, less than 61.28% of Java online submissions for Count Operations to Obtain Zero.
+
+Time Submitted	22/02/2022 04:51
+Status		Accepted
+Runtime		3 ms
+Memory		41 MB
+Language		java
+*/
