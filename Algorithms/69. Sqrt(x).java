@@ -24,7 +24,7 @@ Explanation: The square root of 8 is 2.82842..., and since the decimal part is t
 
 Constraints:
 
-0 <= x <= 231 - 1
+0 <= x <= 2^31 - 1
 */
 
 
