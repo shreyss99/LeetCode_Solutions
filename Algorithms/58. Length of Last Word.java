@@ -38,10 +38,27 @@ There will be at least one word in s.
 class Solution {
     public int lengthOfLastWord(String s) {
         
+	//We trim the original string to remove leading and trailing spaces
         s=s.trim();
+
+	//We now split the trimmed string using " " as delimiter ad store words in array
         String[] split_arr = s.split(" ");
+	//Finally, we can again trim the last word of spaces and calculate its length
         String last_word = split_arr[split_arr.length-1].trim();
         
         return last_word.length();
     }
 }
+
+
+/*
+Success
+Details 
+Runtime: 0 ms, faster than 100.00% of Java online submissions for Length of Last Word.
+Memory Usage: 40.8 MB, less than 33.52% of Java online submissions for Length of Last Word.
+Time Submitted	02/22/2022 04:14
+Status		Accepted
+Runtime		0 ms
+Memory		40.8 MB
+Language		java
+*/
