@@ -8,6 +8,7 @@
 | ------------- | ------------- | ------------- | ------------- | 
 | 1  | [Two Sum](https://leetcode.com/problems/two-sum/)  | Java  | Easy  |
 | 4  | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)  | Java  | Hard  |
+| 7  | [Reverse Integer](https://leetcode.com/problems/reverse-integer/)  | Java  | Medium  |
 | 9  | [Palindrome Number](https://leetcode.com/problems/palindrome-number/)  | Java  | Easy  |
 | 13  | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)  | Java  | Easy  |
 | 26  | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)  | Java  | Easy  |
