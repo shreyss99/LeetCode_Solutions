@@ -37,18 +37,21 @@ class Solution {
         long remainder;
         int isNegative = 0;
         
+	//check if number is negative and convert it to positive for calculation
         if (x < 0){
             isNegative = 1;
             x *= -1;
         }
         
-        while(x > 0){
-            
+	//Iterate till number > 0 and extract the units digit
+	//Divide the original number and add the remainder to the reversed number obtained so far
+        while(x > 0){    
             remainder = x%10;
             x /= 10;
             reversed = 10*reversed + remainder;
         }
         
+	//Handling edge case when the reversal of number causes it to go beyond the signed int limit.
         if(reversed < Integer.MIN_VALUE || reversed > Integer.MAX_VALUE)
             return 0;
         else if(isNegative == 1)
