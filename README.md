@@ -20,6 +20,7 @@
 | 217  | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)  | Java  | Easy  |
 | 268  | [Missing Number](https://leetcode.com/problems/missing-number/)  | Java  | Easy  |
 | 367  | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)  | Java  | Easy  |
+| 1678  | [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/)  | Java  | Easy  |
 | 2154  | [Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/)  | Java  | Easy  |
 | 2164  | [Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/)  | Java  | Easy  |
 | 2169  | [Count Operations to Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero/)  | Java  | Easy  |
